@@ -11,7 +11,7 @@ elif escolha == "*":
 elif escolha == "/":
     resultado = int(primeiro_numero) / int(segundo_numero)
 else:
-    resultado = "Operação inválida esolha entre +, -, * ou /"
+    resultado = "Operação inválida escolha entre +, -, * ou /"
 
 
 calculadora = print (f"{primeiro_numero} {escolha} {segundo_numero} = {resultado}")
